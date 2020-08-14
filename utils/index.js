@@ -4,7 +4,7 @@ const path = require('path');
 const cloudinary = require('../config/cloudinary');
 const sgMail = require('@sendgrid/mail');
 
-sgMail.setApiKey(process.env.SENDGRID_API_KEY);
+sgMail.setApiKey(process.env.SENDGRID_API_KEY_2);
 
 function uploader(req) {
   return new Promise((resolve, reject) => {
